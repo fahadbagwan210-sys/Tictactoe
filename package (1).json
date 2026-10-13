@@ -1,9 +1,0 @@
-{
-  "name": "tictactoe-online",
-  "version": "1.0.0",
-  "description": "Tic-Tac-Toe with AI, local two-player and online friend play. Made by Fahad Bagwan.",
-  "private": true,
-  "dependencies": {
-    "@netlify/blobs": "^8.0.0"
-  }
-}
