@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+# The website calls /api, which Netlify forwards to the backend function
+[[redirects]]
+  from = "/api"
+  to = "/.netlify/functions/api"
+  status = 200
